@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #111111;
+    padding-bottom: 30px;
+}
+
+/* White Navbar Header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.app-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #cccccc;
+}
+
+.navbar h2 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.about-nav-btn {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.back-btn {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Gallery Grid */
+.gallery-container {
+    padding: 16px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+    gap: 14px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    background-color: #f5f5f5;
+}
+
+.download-link {
+    display: block;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* About Screen Styling */
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+
+.dev-profile-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 16px;
+    padding: 24px 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+
+.dev-badge {
+    display: inline-block;
+    background: #f0f0f0;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.dev-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 4px;
+}
+
+.dev-sub {
+    font-size: 13px;
+    color: #666666;
+    margin-bottom: 18px;
+}
+
+.dev-description p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 14px;
+}
+
+/* Chat Section */
+.contact-chat-card {
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.contact-chat-card h3 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.identity-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.identity-row label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #555;
+    white-space: nowrap;
+}
+
+.identity-row input {
+    flex: 1;
+    padding: 8px 12px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.chat-display-box {
+    background: #f9f9f9;
+    border: 1px solid #eeeeee;
+    min-height: 55px;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.status-notice {
+    font-size: 13px;
+    color: #111111;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.send-box {
+    display: flex;
+    gap: 8px;
+}
+
+.send-box input {
+    flex: 1;
+    padding: 11px;
+    font-size: 13px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.send-box button {
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 11px 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
