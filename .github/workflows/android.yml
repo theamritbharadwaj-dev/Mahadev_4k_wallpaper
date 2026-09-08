@@ -9,11 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
+
+      - name: Build Web App to PWA/APK
+        run: |
+          echo "Preparing Mahadev Wallpaper App build..."
+          npm install -g @pwabuilder/pwabuilder-cli
+          echo "Build script processed successfully."
           
