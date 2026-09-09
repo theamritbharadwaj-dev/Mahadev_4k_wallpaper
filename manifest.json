@@ -1,14 +1,18 @@
 {
-  "name": "Mahadev 4k wallpaer",
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "mahadev-4k-wallpaper",
+  "orientation": "any",
+  "scope": "/",
   "short_name": "App",
   "start_url": "/",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
+  "id": "Com.mahadev.4k.wallpaer",
   "icons": [
     {
-      "src": "images/logo.jpg"
-      "sizes": "192x192",
+      "src": "/logo.jpg",
+      "sizes": "512x512",
       "type": "image/jpeg"
     }
   ]
