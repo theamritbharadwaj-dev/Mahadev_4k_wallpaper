@@ -9,11 +9,10 @@
   "start_url": "/",
   "theme_color": "#ffffff",
   "id": "Com.mahadev.4k.wallpaer",
-  "icons": [
+    "icons": [
     {
-      "src": "/logo.jpg",
+      "src": "/images/logo.jpg",
       "sizes": "512x512",
       "type": "image/jpeg"
     }
-  ]
-}
+    ]
